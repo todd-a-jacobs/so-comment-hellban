@@ -92,10 +92,6 @@ module SO_Comment_Hellban
     def flag_weight
       (@helpful_flags + 10) - @declined_flags
     end
-
-    def unindent string
-      string.strip.gsub /\s*\n\s*/, "\n"
-    end
   end
 end
 
