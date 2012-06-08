@@ -1,0 +1,5 @@
+require_relative '../lib/so-comment-hellban'
+
+SO_Comment_Hellban::Hellban.usage unless
+    SO_Comment_Hellban::Hellban.valid_args?
+SO_Comment_Hellban::Hellban.new(ARGV.first, ARGV.last).report
