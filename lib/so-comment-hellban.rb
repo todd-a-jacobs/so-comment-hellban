@@ -74,7 +74,7 @@ module SO_Comment_Hellban
     end
 
     def self.usage
-      warn "Usage: ruby #{File.basename $0} <declined_flags> <helpful_flags>"
+      warn "Usage: #{File.basename $0} <declined_flags> <helpful_flags>"
       exit 64
     end
 

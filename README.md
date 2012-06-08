@@ -52,7 +52,7 @@ http://stackoverflow.com/users/flag-summary/<stackoverflow_userid>.
 
 ## Usage
 
-    ruby so-comment-hellban.rb <declined_flags> <helpful_flags>
+    so-comment-hellban <declined_flags> <helpful_flags>
 
 ## Examples
 
@@ -61,7 +61,7 @@ command line. Runtime results may vary.
 
 With 10 "declined" flags and 90 "helpful" flags:
 
-    $ ruby so-comment-hellban.rb 10 90
+    $ so-comment-hellban 10 90
     # Stack Overflow Comment-Hellban Calculator
 
       - Current Flag Weight: 90
@@ -69,7 +69,7 @@ With 10 "declined" flags and 90 "helpful" flags:
 
 With 11 "declined" flags and 1 "helpful" flag:
 
-    $ ruby so-comment-hellban.rb 11 1
+    $ so-comment-hellban 11 1
     # Stack Overflow Comment-Hellban Calculator
 
       - Current Flag Weight: 0
